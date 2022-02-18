@@ -5,12 +5,11 @@
 
 bool checkPrime(uint64_t value) {
   int count = 0;
-  for (int x = 2; x < value; x++)
-  {
+  for (int x = 2; x < value; x++) {
     if ((value % x) == 0)
       count = count++;
   }
-  if (count!=0)
+  if (count != 0)
     return false;
   else
     return true;
