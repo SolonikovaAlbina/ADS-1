@@ -1,7 +1,7 @@
 // Copyright 2022 NNTU-CS
+#include <cmath>
 #include <cstdint>
 #include "alg.h"
-#include <cmath>
 
 bool checkPrime(uint64_t value) {
   int count = 0;
