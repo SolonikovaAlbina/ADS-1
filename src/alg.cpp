@@ -21,10 +21,11 @@ uint64_t nPrime(uint64_t n) {
     }
     if (simple == n) {
       return i;
-    }
-    else
+    } else {
       continue;
+    }
   }
+  return 0;
 }
 
 uint64_t nextPrime(uint64_t value) {
